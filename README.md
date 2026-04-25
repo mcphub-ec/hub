@@ -75,3 +75,11 @@ La arquitectura delega el 100% de la responsabilidad de las credenciales al ento
 2.  **Proponer un nuevo MCP Oficial:** ¿Creaste un conector para un banco local o software nuevo? Abre un _Issue_ en este repositorio (`hub`) con el título `[Propuesta]` para discutir su inclusión oficial en la organización.
 
 _Construido con dedicación para el ecosistema tech de Ecuador._ 🇪🇨
+
+## 🏢 Desarrollado y Respaldado por
+
+Este ecosistema de código abierto es orgullosamente creado y mantenido por **UPGRADE-EC S.A.S**.
+
+Si buscas implementar estas tecnologías a escala corporativa, explorar nuestras soluciones comerciales de facturación listas para usar, o necesitas consultoría experta en automatización con IA, visítanos en:
+
+🌐 [**upgrade.ec**](https://upgrade.ec/ "null")
