@@ -34,21 +34,21 @@ Estos servidores son mantenidos oficialmente por la organización y garantizan a
 
 | Servicio | Repositorio | Descripción |
 | --- | --- | --- |
-| **SRI (Nativo)** | [`mcphub-ec/mcp-sri`](https://gemini.google.com/# "null") | Generación, firma XAdES-BES y transmisión de facturas electrónicas directamente al SRI sin intermediarios. |
-| **Contífico** | [`mcphub-ec/mcp-contifico`](https://gemini.google.com/# "null") | Integración completa con el ERP (personas, stock, documentos, cobros). |
-| **Invoka** | [`mcphub-ec/mcp-invoka`](https://gemini.google.com/# "null") | Emisión electrónica simplificada basada en créditos y delegación de firma. |
-| **Factuplan** | [`mcphub-ec/mcp-factuplan`](https://gemini.google.com/# "null") | APIs especializadas para emisión de facturas electrónicas. |
-| **FacturaSoft** | [`mcphub-ec/mcp-facturasoft`](https://gemini.google.com/# "null") | Conector para el sistema de emisión de comprobantes FacturaSoft. |
-| **Perseo** | [`mcphub-ec/mcp-perseo`](https://gemini.google.com/# "null") | Integración directa con las capacidades del sistema contable Perseo. |
+| **SRI (Nativo)** | [`mcphub-ec/mcp-sri`](https://github.com/mcphub-ec/mcp-sri) | Generación, firma XAdES-BES y transmisión de facturas electrónicas directamente al SRI sin intermediarios. |
+| **Contífico** | [`mcphub-ec/mcp-contifico`](https://github.com/mcphub-ec/mcp-contifico) | Integración completa con el ERP (personas, stock, documentos, cobros). |
+| **Invoka** | [`mcphub-ec/invoka`](https://github.com/mcphub-ec/invoka) | Emisión electrónica simplificada basada en créditos y delegación de firma. |
+| **Factuplan** | [`mcphub-ec/factuplan`](https://github.com/mcphub-ec/factuplan) | APIs especializadas para emisión de facturas electrónicas. |
+| **FacturaSoft** | [`mcphub-ec/facturasoft`](https://github.com/mcphub-ec/facturasoft) | Conector para el sistema de emisión de comprobantes FacturaSoft. |
+| **Perseo** | [`mcphub-ec/perseo`](https://github.com/mcphub-ec/perseo) | Integración directa con las capacidades del sistema contable Perseo. |
 
 ### 💳 Pasarelas de Pago
 
 | Servicio | Repositorio | Descripción |
 | --- | --- | --- |
-| **Payphone** | [`mcphub-ec/mcp-payphone`](https://gemini.google.com/# "null") | Generación de links de pago, notificaciones push al celular y reversos. |
-| **Kushki** | [`mcphub-ec/mcp-kushki`](https://gemini.google.com/# "null") | Tokenización de tarjetas y transferencias bancarias a nivel regional. |
-| **Datafast** | [`mcphub-ec/mcp-datafast`](https://gemini.google.com/# "null") | Procesamiento tradicional de tarjetas y consulta de estados en la red Datafast. |
-| **PagoMedios** | [`mcphub-ec/mcp-pagomedios`](https://gemini.google.com/# "null") | Ecosistema Abitmedia para generar solicitudes de cobro y tracking de pagos. |
+| **Payphone** | [`mcphub-ec/payphone`](https://github.com/mcphub-ec/payphone) | Generación de links de pago, notificaciones push al celular y reversos. |
+| **Kushki** | [`mcphub-ec/kushki`](https://github.com/mcphub-ec/kushki) | Tokenización de tarjetas y transferencias bancarias a nivel regional. |
+| **Datafast** | [`mcphub-ec/datafast`](https://github.com/mcphub-ec/datafast) | Procesamiento tradicional de tarjetas y consulta de estados en la red Datafast. |
+| **PagoMedios** | [`mcphub-ec/pagomedios`](https://github.com/mcphub-ec/pagomedios) | Ecosistema Abitmedia para generar solicitudes de cobro y tracking de pagos. |
 
 ## 🚀 Cómo empezar
 
