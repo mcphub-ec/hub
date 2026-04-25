@@ -1,0 +1,60 @@
+# Estándar para todos los servidores MCP
+# ────────────────────────────────────────
+
+# Entornos virtuales Python
+.venv/
+venv/
+env/
+ENV/
+
+# Variables de entorno — NUNCA commitear
+.env
+.env.local
+.env.*.local
+
+# Certificados digitales — NUNCA commitear
+certs/
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.cer
+*.jks
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+nohup.out
+logs/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas de microservicios MCP
+contabilidad/
+pagos/
+agent-cheatsheet-local.md
