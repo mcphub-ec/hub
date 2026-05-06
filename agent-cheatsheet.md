@@ -74,20 +74,6 @@ Procesamiento de pagos y pasarelas de cobro para Ecuador.
 
 -   **Objetivo**: Ecosistema Abitmedia para generar solicitudes de cobro y tracking de pagos integrados.
 
-## 📨 Comunicaciones
-
-Servidores para que agentes interactuen con canales de comunicacion sin recibir credenciales directas.
-
-### 1\. `mcphub-ec/mcp-email`
-
--   **Objetivo**: Consulta de correo IMAP y envio SMTP con credenciales protegidas por variables de entorno.
--   **Herramientas Principales**:
-
-    -   `list_accounts` / `list_mailboxes`: Descubre cuentas y carpetas disponibles sin exponer secretos.
-    -   `search_emails` / `get_email`: Busca y lee mensajes con limites de resultados y cuerpo.
-    -   `get_attachment`: Descarga adjuntos puntuales bajo limite de tamano.
-    -   `prepare_email` / `send_prepared_email`: Flujo de envio en dos pasos; nunca llames `send_prepared_email` sin un `send_token` generado para el mismo contenido exacto.
-
 ## 🔒 Manejo de Credenciales (Instrucción Estricta)
 
 1.  **Variables de Entorno Locales**: Los servidores NO usan bases de datos para guardar secretos. Requieren que variables como `EMITTER_RUC`, `CERTIFICATE_PATH`, `PAYPHONE_TOKEN`, etc., existan en el entorno (generalmente pasadas a través de `.env`).

@@ -57,5 +57,6 @@ Thumbs.db
 # Ignorar carpetas de microservicios MCP
 contabilidad/
 pagos/
+comunicaciones/
 agent-cheatsheet-local.md
 docs/
