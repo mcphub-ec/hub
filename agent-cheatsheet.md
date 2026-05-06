@@ -10,7 +10,7 @@ Estos repositorios contienen servidores que interactúan con el SRI (autoridad t
 
 -   **Objetivo**: Emisión directa al SRI usando firmas `.p12` (XAdES-BES) y consultas públicas.
 -   **Herramientas Principales**:
-    
+
     -   `consultar_informacion_ruc`: Consulta información pública del contribuyente (razón social, estado tributario) directamente desde las bases del SRI. Útil para validar clientes antes de facturar.
     -   `generar_xml_v232`: Crea el esquema XML estándar del SRI v2.1.0. Calcula totales automáticamente.
     -   `firmar_xades_bes`: Firma digitalmente el XML usando el microservicio Java integrado.
@@ -73,6 +73,20 @@ Procesamiento de pagos y pasarelas de cobro para Ecuador.
 ### 4\. `mcphub-ec/mcp-pagomedios`
 
 -   **Objetivo**: Ecosistema Abitmedia para generar solicitudes de cobro y tracking de pagos integrados.
+
+## 📨 Comunicaciones
+
+Servidores para que agentes interactuen con canales de comunicacion sin recibir credenciales directas.
+
+### 1\. `mcphub-ec/mcp-email`
+
+-   **Objetivo**: Consulta de correo IMAP y envio SMTP con credenciales protegidas por variables de entorno.
+-   **Herramientas Principales**:
+
+    -   `list_accounts` / `list_mailboxes`: Descubre cuentas y carpetas disponibles sin exponer secretos.
+    -   `search_emails` / `get_email`: Busca y lee mensajes con limites de resultados y cuerpo.
+    -   `get_attachment`: Descarga adjuntos puntuales bajo limite de tamano.
+    -   `prepare_email` / `send_prepared_email`: Flujo de envio en dos pasos; nunca llames `send_prepared_email` sin un `send_token` generado para el mismo contenido exacto.
 
 ## 🔒 Manejo de Credenciales (Instrucción Estricta)
 

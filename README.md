@@ -12,6 +12,7 @@ Para facilitar la contribución, el versionado y el despliegue ligero, no utiliz
 graph TD
     Org[mcphub-ec] --> Contabilidad[🏛️ Contabilidad & SRI]
     Org --> Pagos[💳 Pasarelas de Pago]
+    Org --> Comunicaciones[📨 Comunicaciones]
     
     Contabilidad --> SRI(mcp-sri)
     Contabilidad --> Contifico(mcp-contifico)
@@ -24,6 +25,8 @@ graph TD
     Pagos --> Kushki(mcp-kushki)
     Pagos --> Datafast(mcp-datafast)
     Pagos --> PagoMedios(mcp-pagomedios)
+
+    Comunicaciones --> Email(mcp-email)
 ```
 
 ## 📦 Catálogo Oficial de MCPs
@@ -49,6 +52,12 @@ Estos servidores son mantenidos oficialmente por la organización y garantizan a
 | **Kushki** | [`mcphub-ec/kushki`](https://github.com/mcphub-ec/kushki) | Tokenización de tarjetas y transferencias bancarias a nivel regional. |
 | **Datafast** | [`mcphub-ec/datafast`](https://github.com/mcphub-ec/datafast) | Procesamiento tradicional de tarjetas y consulta de estados en la red Datafast. |
 | **PagoMedios** | [`mcphub-ec/pagomedios`](https://github.com/mcphub-ec/pagomedios) | Ecosistema Abitmedia para generar solicitudes de cobro y tracking de pagos. |
+
+### 📨 Comunicaciones
+
+| Servicio | Repositorio | Descripción |
+| --- | --- | --- |
+| **Email IMAP/SMTP** | [`mcphub-ec/mcp-email`](https://github.com/mcphub-ec/mcp-email) | Consulta de correos por IMAP y envío por SMTP con credenciales protegidas por entorno y confirmación obligatoria. |
 
 ## 🚀 Cómo empezar
 
