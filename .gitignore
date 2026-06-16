@@ -67,3 +67,8 @@ docs/
 *.db
 .beads-credential-key
 .beads/
+
+# mcp_common/ is the canonical reference of the shared library. The
+# actual copy lives in each sub-repo's tree (vendored). The hub version
+# is for local development only — do NOT commit here.
+mcp_common/
