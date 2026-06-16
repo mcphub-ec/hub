@@ -61,7 +61,8 @@ comunicaciones/
 agent-cheatsheet-local.md
 docs/
 
-# Beads / Dolt files (added by bd init)
+# Beads / Dolt files (added by bd init) — NUNCA commitear
 .dolt/
 *.db
 .beads-credential-key
+.beads/
