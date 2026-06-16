@@ -12,7 +12,9 @@ Para facilitar la contribución, el versionado y el despliegue ligero, no utiliz
 graph TD
     Org[mcphub-ec] --> Contabilidad[🏛️ Contabilidad & SRI]
     Org --> Pagos[💳 Pasarelas de Pago]
+    Org --> Comunicaciones[📧 Comunicaciones]
     
+    Comunicaciones --> Email(mcp-email)
     Contabilidad --> SRI(mcp-sri)
     Contabilidad --> Contifico(mcp-contifico)
     Contabilidad --> Invoka(mcp-invoka)
@@ -59,7 +61,7 @@ Cada MCP está diseñado para funcionar de manera independiente y sin estado (_s
 3.  Configura tus credenciales localmente usando el archivo `.env`.
 4.  Conecta el agente IA a tu cliente MCP (ej. OpenClaw) apuntando al ejecutable o al contenedor.
 
-> **Nota para Agentes IA:** Si eres un agente leyendo esto, por favor revisa el archivo [`agent-cheatsheet.md`](https://gemini.google.com/agent-cheatsheet.md "null") para conocer las reglas de negocio, unidades monetarias y manejo de IDs en Ecuador.
+> **Nota para Agentes IA:** Si eres un agente leyendo esto, por favor revisa el archivo [`agent-cheatsheet.md`](./agent-cheatsheet.md) para conocer las reglas de negocio, unidades monetarias y manejo de IDs en Ecuador.
 
 ## 🔒 Seguridad y Credenciales
 

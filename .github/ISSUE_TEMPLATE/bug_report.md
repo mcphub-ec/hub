@@ -1,4 +1,10 @@
-## name: 🐛 Reportar Bug about: Crea un reporte para ayudarnos a mejorar un servidor MCP. title: '\[BUG\] <Descripción corta del problema>' labels: bug assignees: ''
+---
+name: 🐛 Reportar Bug
+about: Crea un reporte para ayudarnos a mejorar un servidor MCP.
+title: '[BUG] <Descripción corta del problema>'
+labels: bug
+assignees: ''
+---
 
 ## 🐛 Descripción del Bug
 

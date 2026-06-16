@@ -38,6 +38,7 @@ htmlcov/
 *.log
 nohup.out
 logs/
+git_sync_log.txt
 
 # IDEs
 .vscode/
